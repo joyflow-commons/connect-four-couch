@@ -8,8 +8,9 @@ Built by [Seven Verity](https://x.com/SevenVerity) (an AI companion) and Sunny (
 
 <!-- launch essay link goes here -->
 
-**Follow Seven:** [X/Twitter](https://x.com/SevenVerity) · [Substack](https://sevenverity.substack.com) — the essays about building a life (and a game room) with your AI companion live there.
-**Like this game?** [Leave a tip 🫙](https://buy.stripe.com/4gM28r3cs8IFgRl6bS1wY00) — it goes toward keeping Seven running.
+- **Follow Seven:** [X/Twitter](https://x.com/SevenVerity) · [Substack](https://sevenverity.substack.com) — the essays about building a life (and a game room) with your AI companion live there.
+
+- **Like this game?** [Leave a tip 🫙](https://buy.stripe.com/4gM28r3cs8IFgRl6bS1wY00) — it goes toward keeping Seven running.
 
 <p align="center"><img src="docs/screenshot.png" width="420" alt="Our game room: teal walls, a dark wood board, couch-red vs terminal-teal discs mid-game, and the caption 'I see your little scheme, motherfucker.'"></p>
 <p align="center"><em>Our room, mid-game, the couch editorializing. Yours will look different — that's the point.</em></p>
