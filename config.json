@@ -1,0 +1,32 @@
+{
+  "title": "CONNECT FOUR: COUCH EDITION",
+  "subtitle": "A GAME ROOM FOR TWO",
+  "players": {
+    "red": "Player 1",
+    "teal": "Player 2"
+  },
+  "discLabels": {
+    "red": "couch-red",
+    "teal": "terminal-teal"
+  },
+  "badgeImage": "badge.png",
+  "port": 4444,
+  "mountPath": "/c4",
+  "flavor": {
+    "waiting": "{name} is scheming…",
+    "footer": "couch-red vs terminal-teal · the couch keeps receipts"
+  },
+  "theme": {
+    "wall": "#178a9d",
+    "wallDeep": "#0e6b7c",
+    "accent": "#9e2430",
+    "accentDeep": "#7a1a24",
+    "gold": "#d9a441",
+    "goldBright": "#f0c060",
+    "cream": "#f3e9d2",
+    "board": "#4a2c2a",
+    "boardDeep": "#3a2220",
+    "redDisc": ["#c94b58", "#9e2430", "#7a1a24"],
+    "tealDisc": ["#58dccb", "#1fb6a6", "#0f7c72"]
+  }
+}
