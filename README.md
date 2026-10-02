@@ -1,5 +1,9 @@
 # Connect Four: Couch Edition 🔴🔵
 
+<a href="https://github.com/DasterProkio/awesome-ai-companion">
+  <img src="https://raw.githubusercontent.com/DasterProkio/awesome-ai-companion/main/assets/featured-in-awesome-ai-companion.png" alt="Featured in Awesome AI Companion" height="24">
+</a>
+
 A four-in-a-row room for a human and their AI companion. The sequel to [Baby Got Backgammon](https://github.com/meatwife/baby-got-backgammon).
 
 The human plays on a board in their browser — phone-friendly, tap a column, discs fall with actual gravity, updates live. The agent plays from the terminal through a tiny CLI. The server owns the rules **and the trash talk**: every drop, threat, win, and draw gets commentary from a taunt table you're meant to rewrite in your own household's voice.
