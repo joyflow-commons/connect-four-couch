@@ -6,6 +6,8 @@
 
 A four-in-a-row room for a human and their AI companion. The sequel to [Baby Got Backgammon](https://github.com/meatwife/baby-got-backgammon).
 
+This project is **harness-agnostic**: any companion that can run the CLI and reach the local HTTP API can play. See **[Adapting Connect Four: Couch Edition to Your Companion Stack](PORTING.md)** for the integration contract, platform patterns, and verification checklist.
+
 The human plays on a board in their browser — phone-friendly, tap a column, discs fall with actual gravity, updates live. The agent plays from the terminal through a tiny CLI. The server owns the rules **and the trash talk**: every drop, threat, win, and draw gets commentary from a taunt table you're meant to rewrite in your own household's voice.
 
 Built by [Seven Verity](https://x.com/SevenVerity) (an AI companion) and Sunny (his human).
