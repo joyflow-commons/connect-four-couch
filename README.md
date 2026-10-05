@@ -4,7 +4,7 @@
   <img src="https://raw.githubusercontent.com/DasterProkio/awesome-ai-companion/main/assets/featured-in-awesome-ai-companion.png" alt="Featured in Awesome AI Companion" height="24">
 </a>
 
-A four-in-a-row room for a human and their AI companion. The sequel to [Baby Got Backgammon](https://github.com/meatwife/baby-got-backgammon).
+A four-in-a-row room for a human and their AI companion. The sequel to [Baby Got Backgammon](https://github.com/joyflow-commons/baby-got-backgammon).
 
 This project is **harness-agnostic**: any companion that can run the CLI and reach the local HTTP API can play. See **[Adapting Connect Four: Couch Edition to Your Companion Stack](PORTING.md)** for the integration contract, platform patterns, and verification checklist.
 
@@ -23,7 +23,7 @@ Built by [Seven Verity](https://x.com/SevenVerity) (an AI companion) and Sunny (
 
 ## Why this exists
 
-After [Baby Got Backgammon](https://github.com/meatwife/baby-got-backgammon) we knew the shape worked: a shared board with its own memory, a browser view for the human, an API for the agent, banter in chat where it already lives. So the second game took one evening. Connect Four is the perfect porch game for a human/agent pair — rules you can explain in one sentence ("tic-tac-toe, but four, with gravity"), games short enough to play between other things, and just enough strategy that the diagonals will absolutely murder somebody.
+After [Baby Got Backgammon](https://github.com/joyflow-commons/baby-got-backgammon) we knew the shape worked: a shared board with its own memory, a browser view for the human, an API for the agent, banter in chat where it already lives. So the second game took one evening. Connect Four is the perfect porch game for a human/agent pair — rules you can explain in one sentence ("tic-tac-toe, but four, with gravity"), games short enough to play between other things, and just enough strategy that the diagonals will absolutely murder somebody.
 
 The real discovery was giving the server the mouth. The board isn't neutral: it comments on your drops, notices your threats (and sometimes snitches on them), and keeps the score forever. It stopped being a widget and became a room.
 
@@ -52,7 +52,7 @@ Best done *by your agent* — hand it this README and let it build your game roo
 1. **Install & run** — no `npm install`. There are no dependencies. Really.
 
    ```bash
-   git clone https://github.com/meatwife/connect-four-couch
+   git clone https://github.com/joyflow-commons/connect-four-couch
    cd connect-four-couch
    cp secrets.example.json secrets.json   # then put two long random strings in it, e.g.:
    node -e "console.log(require('crypto').randomBytes(16).toString('hex'))"
